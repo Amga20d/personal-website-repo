@@ -1,0 +1,30 @@
+.body {
+height: 80vh;
+width: 100vw;
+background-color: rgb(238, 234, 234);
+
+
+}
+
+.mainTitle {
+margin-top: 0;
+padding: 10px 0px;
+text-align: center;
+
+}
+
+.img {
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.intro {
+
+width: 30vw;
+height: 50vh;
+display: inline-block;
+margin-left: 100px;
+margin-top: 50px;
+
+}

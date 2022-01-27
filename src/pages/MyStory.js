@@ -1,15 +1,16 @@
-import MainHeader from "../components/Layout/MainHeader";
+import classes from "./MyStory.module.css"
+import personal from "../assets/personal.png"
 
 
 const MyStory = () => {
 
     return(
-  <div>
+  <div className={classes.body}>
       
       
       
-    <h1>My Story</h1>
-    <p>
+    <h1 className={classes.mainTitle}>My Story</h1>
+    <p className={classes.intro}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel
       aliquam quis reprehenderit consectetur optio itaque perspiciatis nisi non
       fugit alias atque recusandae velit ut soluta quas laboriosam inventore
@@ -27,6 +28,7 @@ const MyStory = () => {
       et, nemo beatae quos libero aut id. Debitis quidem error dignissimos
       maxime labore.
     </p>
+    <img src={personal} className={classes.img}></img>
   </div>);
 };
 

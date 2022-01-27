@@ -1,52 +1,68 @@
-.layout{
+.layout {
   position: absolute;
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 0.8;
-
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0.8;
+  height: 80vh;
+  width: 100vw;
+  flex-direction: column;
 }
-
 
 .main-image {
   width: 100%;
-  height: 55rem;
- 
+  height: 80vh;
+  
   overflow: hidden;
+  
+ 
 
   
-
 }
 
 .imagee {
-width: 100%;
-height: 100%;
-
-
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
 }
 
 .paragraph {
-position: relative;
- 
-  
+  position: relative;
+
   font-weight: 600;
- 
 
   font-size: 3rem;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px 10px;
-  
+  margin-bottom: 0;
+  border-radius: 10px;
 }
 .based {
   position: relative;
-  font-weight: 400;
+  font-weight: 450;
   font-size: 1.5rem;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 5px 5px;
-
-
-
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+.contacts{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  list-style: none;
+margin-top: 0;
+padding: 0px 10px;
+width: 30vw;
+border-radius: 10px;
+}
+.li{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+

@@ -2,10 +2,19 @@ import classes from "./MainImage.module.css";
 import proImage from "../../assets/prog.jpg";
 
 const MainImage = () => {
-  return (<div>
-    <section className={classes.layout}>
-      <p className={classes.paragraph}> Full Stack Developer & Coffee Enthusiast </p>
-      <p className={classes.based}>based in Edmonton,Canada</p>
+  return (
+    <div >
+      <section className={classes.layout}>
+        <p className={classes.paragraph}>
+          {" "}
+          Full Stack Developer & Coffee Enthusiast{" "}
+        </p>
+        <p className={classes.based}>based in Edmonton,Canada</p>
+        <ul className={classes.contacts}>
+          <li className={classes.li}>Facebook</li>
+          <li className={classes.li}>Linkedin</li>
+          <li className={classes.li}>Github</li>
+        </ul>
       </section>
       <div className={classes["main-image"]}>
         <img
@@ -14,7 +23,6 @@ const MainImage = () => {
           className={classes.imagee}
         />
       </div>
-    
     </div>
   );
 };
