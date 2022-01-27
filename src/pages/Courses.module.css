@@ -1,0 +1,29 @@
+.body{
+    height: 90vh;
+    width: 100vw;
+    background-color: #ececec8c;
+    
+    }
+    
+    .mainHeader {
+     text-align: center;
+     position: relative;
+     top: 2vh;
+    
+    }
+    
+    .courses {
+        position: relative;
+        top: 10vh;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    }
+    
+    .course {
+    
+        font-size: 1.5em;
+        font-weight: 700;
+    }

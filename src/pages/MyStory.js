@@ -10,6 +10,7 @@ const MyStory = () => {
       
       
     <h1 className={classes.mainTitle}>My Story</h1>
+    <section className={classes.section}>
     <p className={classes.intro}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel
       aliquam quis reprehenderit consectetur optio itaque perspiciatis nisi non
@@ -28,7 +29,8 @@ const MyStory = () => {
       et, nemo beatae quos libero aut id. Debitis quidem error dignissimos
       maxime labore.
     </p>
-    <img src={personal} className={classes.img}></img>
+    <img src={personal} alt="Amgad Personal " className={classes.img}></img>
+    </section>
   </div>);
 };
 

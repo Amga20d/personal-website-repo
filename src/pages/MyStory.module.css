@@ -1,7 +1,7 @@
 .body {
 height: 80vh;
 width: 100vw;
-background-color: rgb(238, 234, 234);
+background-color: #ececec8c;
 
 
 }
@@ -13,10 +13,16 @@ text-align: center;
 
 }
 
+.section{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
 .img {
-    float: right;
+    
     margin-right: 100px;
     margin-top: 50px;
+    object-fit: contain;
 }
 
 .intro {

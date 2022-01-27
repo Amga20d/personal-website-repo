@@ -1,16 +1,16 @@
-
+import classes from "./Courses.module.css"
 
 const Courses = () => {
 return(
     
-<div>
+<div className={classes.body}>
 
-<h1> My Courses</h1>
-<ul>
-<li>Course 1</li>
-<li>Course 2</li>
-<li>Course 3</li>
-<li>Course 4</li>
+<h1 className={classes.mainHeader}> My Courses</h1>
+<ul className={classes.courses}>
+<li className={classes.course}>Course 1</li>
+<li className={classes.course}>Course 2</li>
+<li className={classes.course}>Course 3</li>
+<li className={classes.course}>Course 4</li>
 
 </ul>
 
