@@ -34,17 +34,20 @@
   font-size: 1.25rem;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
 .nav a {
   text-decoration: none;
-  color: #82c7bf;
+  color: white;
   font-weight: 800;
   text-shadow: 1px 1px black;
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 0.5px;
 }
 .nav a:hover {
-  text-shadow: 0px 0px 30px white, 0px 0px 30px white, 0px 0px 10px #553300;
+  text-shadow: 0px 0px 30px white, 0px 0px 30px white, 0px 0px 10px #608492;
 }
 
 .nav a:active,
 .nav a.active {
-  text-shadow: 0px 0px 10px #553300, 0px 0px 10px #553300, 0px 0px 10px #553300;
+  text-shadow: 0px 0px 10px #608492, 0px 0px 10px #608492, 0px 0px 10px #608492;
 }
